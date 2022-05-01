@@ -131,10 +131,10 @@ void manageIncome()
         switch (option)
         {
         case 1:
-            promptAddIncome();
+            //promptAddIncome();
             break;
         case 2:
-            promptRemoveIncome();
+            //promptRemoveIncome();
             break;
         case 3:
             promptEditIncome();
@@ -264,7 +264,7 @@ void mainMenu() {
             //manageRC(); 
             break;
         case 3:
-            // manageIncome(); 
+             manageIncome(); 
             break;
         case 4:
             // details(); 
