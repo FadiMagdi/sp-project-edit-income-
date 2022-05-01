@@ -118,12 +118,13 @@ void manageIncome()
     do
     {
         system("cls");
-        listIncome();
+       
         cout << "Select an option: " << endl <<
             "\t1. Add an income" << endl <<
             "\t2. Remove an income" << endl <<
             "\t3. Edit an income" << endl <<
-            "\t4. Go back" << endl << endl;
+            "\t4.show all current incomes" << endl << endl;
+            "\t5. Go back" << endl << endl;
 
         int option;
     m:
@@ -139,7 +140,9 @@ void manageIncome()
         case 3:
             promptEditIncome();
             break;
-        case 4:
+        case 4 :
+         listIncome();
+        case 5:
             keepgoing = false;
             break;
         default:
